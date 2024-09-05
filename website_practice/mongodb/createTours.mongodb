@@ -1,0 +1,9 @@
+db.turismo.insertOne({
+    "nombre": "Tour al parque Tayrona",
+    "incluye": [
+    "Transporte",
+    "Guía Turístico",
+    "Comidas",
+    "Entradas a los parques"
+  ]
+})
