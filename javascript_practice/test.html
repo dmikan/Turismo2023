@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada de Texto</title>
+</head>
+<body>
+
+    <!-- Campo de texto -->
+    <input type="text" id="miInput" placeholder="Escribe algo aquí...">
+
+    <!-- Botón -->
+    <button id="miBoton">Enviar</button>
+
+    <!-- Párrafo donde aparecerá el resultado -->
+    <p id="miParrafo">Texto original</p>
+
+    <script>
+        // Seleccionar el botón, el párrafo y el campo de texto
+        let boton = document.getElementById('miBoton');
+        let parrafo = document.getElementById('miParrafo');
+        let input = document.getElementById('miInput');
+
+        // Agregar el evento 'click' al botón
+        boton.addEventListener('click', function() {
+            // Obtener el valor del campo de texto y mostrarlo en el párrafo
+            parrafo.innerHTML = input.value;
+        });
+    </script>
+
+</body>
+</html>

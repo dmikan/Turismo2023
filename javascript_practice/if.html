@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación por Edad</title>
+</head>
+<body>
+
+<script>
+// Comparaciones: <=, >= y operadores lógicos && (AND), || (OR).
+
+// Clasificación de la edad
+// Si la edad está entre 0 y 17, es menor de edad.
+// Si está entre 18 y 59, es mayor de edad.
+// Si es mayor de 59, pertenece a la tercera edad.
+
+let edad = 60;
+
+if (edad >= 0 && edad <= 17) {
+    alert("Menor de edad");
+} else if (edad >= 18 && edad <= 59) {
+    alert("Mayor de edad");
+} else if (edad > 59) {
+    alert("Tercera edad");
+} else {
+    alert("Edad incorrecta");
+}
+
+</script>
+
+</body>
+</html>
